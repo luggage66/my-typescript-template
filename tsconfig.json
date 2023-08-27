@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "noEmit": true,
+        "checkJs": true,
+        "module": "Node16"
+    },
+    "include": [
+        "scripts/**/*"
+    ],
+    "references": [
+        { "path": "./packages/my-lib" },
+        { "path": "./packages/my-app" }
+    ]
+}
